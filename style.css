@@ -27,3 +27,21 @@ h2{
     align-items: center;
     font-weight: 900;
 }
+ul{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+li{
+    color: white;
+    transition: all ease 0.2s;
+}
+li:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: turquoise;
+}
